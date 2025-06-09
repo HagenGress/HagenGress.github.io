@@ -1,9 +1,11 @@
 ---
 layout: post
-title: project title
-description:  short description of the project
+title: Microfluidic Chamber
+description:  Designed a sealed measurement chamber for frequency measurement of MEMS/NEMS resonators during immersion in a variety of fluids. Coordinated with machine shop for fabrication. Created molds for PDMS casting.
 skills: 
-- skill 1
-- skill 2
+- SolidWorks
+- PDMS Casting
+- PCB Design
+- Microfluidics
 main-image: /project.webp 
 ---
