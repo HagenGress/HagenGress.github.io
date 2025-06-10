@@ -7,6 +7,5 @@ skills:
 - PDMS Casting
 - PCB Design
 - Microfluidics
-main-image: /project.webp
-{% include image-gallery.html images="MicrofluidicChamber.png" height="400"%}
+main-image: /MicrofluidicChamber.png
 ---
