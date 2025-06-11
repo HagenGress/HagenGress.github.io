@@ -2,16 +2,22 @@
 {% assign gallery_height = include.height | default: "300" %}
 {% assign caption = include.caption | default: "" %}
 
-<!-- Outer wrapper stretches full width -->
 <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
 
-  <!-- Text flush left -->
+  <!-- Caption flush left -->
   <div class="gallery-text" style="text-align: left; max-width: 50%;">
     {{ caption }}
   </div>
 
-  <!-- Images flush right -->
-  <div class="image-gallery" style="display: flex; gap: 10px; max-width: 50%; justify-content: flex-end; flex-wrap: wrap;">
+  <!-- Images flush right and inline -->
+  <div class="image-gallery" style="
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 10px;
+      max-width: 50%;
+      justify-content: flex-end;
+      overflow-x: auto;
+  ">
     {% for image_path in image_paths %}
       {% assign image_name = image_path | strip %}
       {% if image_name contains 'https://' %}
@@ -19,7 +25,7 @@
           src="{{ image_name }}"
           alt="Web image"
           loading="lazy"
-          style="height: {{ gallery_height }}px;"
+          style="height: {{ gallery_height }}px; flex-shrink: 0;"
         />
       {% else %}
         {% assign page_url_without_index = page.url | remove: 'index' | remove: '.html' %}
@@ -27,7 +33,7 @@
           src="{{ page_url_without_index }}{{ image_name }}" 
           alt="{{ image_name }}"
           loading="lazy"
-          style="height: {{ gallery_height }}px;"
+          style="height: {{ gallery_height }}px; flex-shrink: 0;"
           onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');"
         />
       {% endif %}
@@ -35,5 +41,6 @@
   </div>
 
 </div>
+
 
 
