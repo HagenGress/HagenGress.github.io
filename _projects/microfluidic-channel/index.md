@@ -14,7 +14,7 @@ main-image: /Diffusion_Microchannel.png
 
 ## Design Steps
 {% include image-gallery.html images="TestFixture.jpg, TestFixture2.jpg" height="180" alignment="left" caption="<p>- designed and built a test fixture for easy integration with the experimental setup.</p>" %}
-{% include image-gallery.html images="Abb2-5.jpg" height="180" alignment="left" caption="Here’s a description of the image gallery." %}
+{% include image-gallery.html images="Abb2-5.jpg" height="180" alignment="left" caption="<p>Here’s a description of the image gallery.<p>" %}
 
 - designed and fabricated molds for ultrasonic hot embossing
 - used ultrasonic hot embossing and ultrasonic welding to create the microchannels
