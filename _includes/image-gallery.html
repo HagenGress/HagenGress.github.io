@@ -17,6 +17,7 @@
               src="{{ page_url_without_index }}{{ image_name }}" 
               alt="{{image_name}}"
               loading="lazy"
+              style="{% if alignment == 'right' %}float: right;{% endif %}"
               onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');"
           />
       {% endif %}
