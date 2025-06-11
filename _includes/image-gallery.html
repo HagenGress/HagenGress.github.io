@@ -1,6 +1,6 @@
 {% assign image_paths = include.images | split: ", " %}
 {% assign gallery_height = include.height | default: "300" %}
-{% assign alignment = include.alignment | default: "right" %}
+{% assign alignment = include.alignment | default: "left" %}
 
 <div class="image-gallery" style="--gallery-height: {{ gallery_height }}px; text-align: {{ alignment }};">
   {% for image_path in image_paths %}
