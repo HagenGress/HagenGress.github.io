@@ -2,41 +2,49 @@
 {% assign gallery_height = include.height | default: "300" %}
 {% assign caption = include.caption | default: "" %}
 
-<!-- Row container -->
-<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; width: 100%; margin-bottom: 2rem; gap: 2rem;">
+<!-- Container for one row: text left, media right -->
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center; width: 100%; gap: 2rem; margin-bottom: 2rem;">
 
-  <!-- Centered caption -->
-  <div class="gallery-caption" style="
-    text-align: center;
-    flex: 1 1 300px;
-    max-width: 500px;
-  ">
+  <!-- Flush-left caption -->
+  <div style="text-align: left; flex: 1 1 300px; max-width: 500px;">
     {{ caption }}
   </div>
 
-  <!-- Centered image row -->
-  <div class="image-row" style="
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    flex: 1 1 300px;
-  ">
-    {% for image_path in image_paths %}
-      {% assign image_name = image_path | strip %}
-      {% if image_name contains 'https://' %}
-        <img 
-          src="{{ image_name }}"
-          alt="Web image"
-          loading="lazy"
-          style="height: {{ gallery_height }}px;"
-        />
+  <!-- Centered media group -->
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; flex: 1 1 300px;">
+    {% for media_path in media_paths %}
+      {% assign media_name = media_path | strip %}
+      {% assign extension = media_name | split: '.' | last | downcase %}
+
+      {% if media_name contains 'https://' %}
+        {% assign full_path = media_name %}
       {% else %}
         {% assign page_url_without_index = page.url | remove: 'index' | remove: '.html' %}
+        {% assign full_path = page_url_without_index | append: media_name %}
+      {% endif %}
+
+      {% if extension == "mp4" %}
+        <video 
+          src="{{ full_path }}" 
+          controls 
+          muted 
+          playsinline 
+          style="height: {{ gallery_height }}px;"
+        ></video>
+
+      {% elsif extension == "gif" %}
         <img 
-          src="{{ page_url_without_index }}{{ image_name }}" 
-          alt="{{ image_name }}"
-          loading="lazy"
+          src="{{ full_path }}" 
+          alt="GIF" 
+          loading="lazy" 
+          style="height: {{ gallery_height }}px;"
+        />
+
+      {% else %}
+        <img 
+          src="{{ full_path }}" 
+          alt="{{ media_name }}" 
+          loading="lazy" 
           style="height: {{ gallery_height }}px;"
           onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');"
         />
@@ -45,6 +53,7 @@
   </div>
 
 </div>
+
 
 
 
