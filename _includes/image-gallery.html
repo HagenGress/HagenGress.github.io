@@ -2,21 +2,25 @@
 {% assign gallery_height = include.height | default: "300" %}
 {% assign caption = include.caption | default: "" %}
 
-<!-- Row container: flush-left text, flush-right images -->
-<div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%; gap: 2rem; margin-bottom: 1.5rem;">
+<!-- Row container -->
+<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; width: 100%; margin-bottom: 2rem; gap: 2rem;">
 
-  <!-- Flush-left caption -->
-  <div class="gallery-caption" style="flex: 1; text-align: left;">
+  <!-- Centered caption -->
+  <div class="gallery-caption" style="
+    text-align: center;
+    flex: 1 1 300px;
+    max-width: 500px;
+  ">
     {{ caption }}
   </div>
 
-  <!-- Flush-right image row -->
+  <!-- Centered image row -->
   <div class="image-row" style="
     display: flex;
-    justify-content: flex-end;
-    flex-wrap: nowrap;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 10px;
-    flex: 1;
+    flex: 1 1 300px;
   ">
     {% for image_path in image_paths %}
       {% assign image_name = image_path | strip %}
@@ -41,6 +45,7 @@
   </div>
 
 </div>
+
 
 
 
