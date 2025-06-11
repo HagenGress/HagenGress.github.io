@@ -12,6 +12,7 @@ skills:
 main-image: /Diffusion_Microchannel.png
 ---
 
+<img alt="Abb2-5" src="/Abb2-5.png" width="100" align="right">
 ## Design Steps
 - designed and fabricated molds for ultrasonic hot embossing
 - used ultrasonic hot embossing and ultrasonic welding to create the microchannels
