@@ -1,15 +1,16 @@
 ---
 layout: post
 title: Microchannel Diffusion
-description: Conducted detailed teardown analysis of Sonos Era speaker, documenting internal components, driver configuration, and PCB design. Created technical documentation with photos and assembly insights for engineering reference. 
+description: Used ultrasonic welding and ultrasonic hot embossing to create microchannels for multicomponent diffusion measurements. Integrated CNC milled metal inlays for temperature control via Joule heating. Tested the device performance using Raman spectroscopy 
 skills: 
   - Ultrasonic Hot Embossing
   - Ultrasonic Welding
   - CNC Milling
   - Microfluidics
+  - Raman Spectroscopy
 
-main-image: /sonos.png
+main-image: /Diffusion_Microchannel.png
 ---
 
-# This is another demo
+
 
