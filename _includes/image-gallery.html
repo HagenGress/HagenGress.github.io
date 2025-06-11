@@ -2,15 +2,16 @@
 {% assign gallery_height = include.height | default: "300" %}
 {% assign caption = include.caption | default: "" %}
 
-<div style="display: flex; align-items: center; width: 100%;">
+<!-- Outer wrapper stretches full width -->
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
 
-  <!-- Text/caption flush left -->
-  <div class="gallery-text" style="text-align: left;">
+  <!-- Text flush left -->
+  <div class="gallery-text" style="text-align: left; max-width: 50%;">
     {{ caption }}
   </div>
 
-  <!-- Image(s) flush right -->
-  <div class="image-gallery" style="display: flex; gap: 10px; margin-left: auto;">
+  <!-- Images flush right -->
+  <div class="image-gallery" style="display: flex; gap: 10px; max-width: 50%; justify-content: flex-end; flex-wrap: wrap;">
     {% for image_path in image_paths %}
       {% assign image_name = image_path | strip %}
       {% if image_name contains 'https://' %}
@@ -34,4 +35,5 @@
   </div>
 
 </div>
+
 
