@@ -10,7 +10,7 @@
   </div>
 
   <!-- Images on the right (flush right) -->
-  <div class="image-gallery" style="display: flex; gap: 10px;">
+  <div class="image-gallery" style="display: flex; gap: 10px; margin-left: auto;">
     {% for image_path in image_paths %}
       {% assign image_name = image_path | strip %}
       {% if image_name contains 'https://' %}
