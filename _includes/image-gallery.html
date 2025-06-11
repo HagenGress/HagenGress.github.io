@@ -2,14 +2,14 @@
 {% assign gallery_height = include.height | default: "300" %}
 {% assign caption = include.caption | default: "" %}
 
-<div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
-  
-  <!-- Text on the left (flush left) -->
+<div style="display: flex; align-items: center; width: 100%;">
+
+  <!-- Text/caption flush left -->
   <div class="gallery-text" style="text-align: left;">
     {{ caption }}
   </div>
 
-  <!-- Images on the right (flush right) -->
+  <!-- Image(s) flush right -->
   <div class="image-gallery" style="display: flex; gap: 10px; margin-left: auto;">
     {% for image_path in image_paths %}
       {% assign image_name = image_path | strip %}
@@ -34,3 +34,4 @@
   </div>
 
 </div>
+
