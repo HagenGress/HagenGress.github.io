@@ -1,13 +1,12 @@
 ---
 layout: post
-title: Sonos Teardown
+title: Microchannel Diffusion
 description: Conducted detailed teardown analysis of Sonos Era speaker, documenting internal components, driver configuration, and PCB design. Created technical documentation with photos and assembly insights for engineering reference. 
 skills: 
-  - drumel
-  - microprobing
-  - Electronics Teardown
-  - PCB analysis
-  - audio system design
+  - Ultrasonic Hot Embossing
+  - Ultrasonic Welding
+  - CNC Milling
+  - Microfluidics
 
 main-image: /sonos.png
 ---
