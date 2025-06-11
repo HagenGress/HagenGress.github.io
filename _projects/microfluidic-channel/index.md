@@ -17,7 +17,10 @@ main-image: /Diffusion_Microchannel.png
 {% include image-gallery.html 
    images="TestFixture.jpg, TestFixture2.jpg" 
    height="180" 
-   caption="<ul><li>Designed and built a test fixture for easy integration with the experimental setup.</li></ul>" 
+   caption="<ul>
+     <li>designed and built a test fixture for easy integration with the experimental setup</li>
+     <li>second point</li>
+   </ul>" 
 %}
 
 {% include image-gallery.html 
