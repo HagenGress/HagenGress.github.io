@@ -2,6 +2,12 @@
 layout: post
 title: Microfluidic System for Multicomponent Diffusion
 description: I designed and fabricated cheap and disposable microfluidic channels to simultaneously determine all diffusion coefficients in liquid mixtures containing two or more substances. 
+## Design Steps
+- designed and fabricated molds for ultrasonic hot embossing
+- used ultrasonic hot embossing and ultrasonic welding to create the microchannels
+- integrated CNC-milled aluminum inlays for temperature control via Joule heating
+- designed and built a test fixture for easy integration with the experimental setup
+- used Raman spectroscopy to evaluate the performance of the diffusion experiments
 skills: 
   - Ultrasonic Hot Embossing
   - Ultrasonic Welding
@@ -12,11 +18,5 @@ skills:
 main-image: /Diffusion_Microchannel.png
 ---
 
-# Design Steps
-- designed and fabricated molds for ultrasonic hot embossing
-- used ultrasonic hot embossing and ultrasonic welding to create the microchannels
-- integrated CNC-milled aluminum inlays for temperature control via Joule heating
-- designed and built a test fixture for easy integration with the experimental setup
-- used Raman spectroscopy to evaluate the performance of the diffusion experiments
 
 
