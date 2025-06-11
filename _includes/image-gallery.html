@@ -2,36 +2,46 @@
 {% assign gallery_height = include.height | default: "300" %}
 {% assign caption = include.caption | default: "" %}
 
-<!-- Single row of images aligned flush right -->
-<div class="image-row" style="
-  display: flex;
-  justify-content: flex-end;
-  gap: 10px;
-  margin-bottom: 1rem;
-  flex-wrap: nowrap;
-  width: 100%;
-">
-  {% for image_path in image_paths %}
-    {% assign image_name = image_path | strip %}
-    {% if image_name contains 'https://' %}
-      <img 
-        src="{{ image_name }}"
-        alt="Web image"
-        loading="lazy"
-        style="height: {{ gallery_height }}px;"
-      />
-    {% else %}
-      {% assign page_url_without_index = page.url | remove: 'index' | remove: '.html' %}
-      <img 
-        src="{{ page_url_without_index }}{{ image_name }}" 
-        alt="{{ image_name }}"
-        loading="lazy"
-        style="height: {{ gallery_height }}px;"
-        onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');"
-      />
-    {% endif %}
-  {% endfor %}
+<!-- Row container: flush-left text, flush-right images -->
+<div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%; gap: 2rem; margin-bottom: 1.5rem;">
+
+  <!-- Flush-left caption -->
+  <div class="gallery-caption" style="flex: 1; text-align: left;">
+    {{ caption }}
+  </div>
+
+  <!-- Flush-right image row -->
+  <div class="image-row" style="
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    gap: 10px;
+    flex: 1;
+  ">
+    {% for image_path in image_paths %}
+      {% assign image_name = image_path | strip %}
+      {% if image_name contains 'https://' %}
+        <img 
+          src="{{ image_name }}"
+          alt="Web image"
+          loading="lazy"
+          style="height: {{ gallery_height }}px;"
+        />
+      {% else %}
+        {% assign page_url_without_index = page.url | remove: 'index' | remove: '.html' %}
+        <img 
+          src="{{ page_url_without_index }}{{ image_name }}" 
+          alt="{{ image_name }}"
+          loading="lazy"
+          style="height: {{ gallery_height }}px;"
+          onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');"
+        />
+      {% endif %}
+    {% endfor %}
+  </div>
+
 </div>
+
 
 
 
