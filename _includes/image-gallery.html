@@ -2,16 +2,38 @@
 {% assign gallery_height = include.height | default: "300" %}
 {% assign caption = include.caption | default: "" %}
 
-<!-- Container for one row: text left, media right -->
-<div style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center; width: 100%; gap: 2rem; margin-bottom: 2rem;">
+<!-- One row: vertically centered caption + media group -->
+<div style="
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+  margin-bottom: 2rem;
+">
 
-  <!-- Flush-left caption -->
-  <div style="text-align: left; flex: 1 1 300px; max-width: 500px;">
-    {{ caption }}
+  <!-- Vertically centered, flush-left caption -->
+  <div style="
+    text-align: left;
+    flex: 1 1 300px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+  ">
+    <div>
+      {{ caption }}
+    </div>
   </div>
 
-  <!-- Centered media group -->
-  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; flex: 1 1 300px;">
+  <!-- Media group (images, GIFs, videos) -->
+  <div style="
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex: 1 1 300px;
+  ">
     {% for media_path in media_paths %}
       {% assign media_name = media_path | strip %}
       {% assign extension = media_name | split: '.' | last | downcase %}
@@ -53,6 +75,7 @@
   </div>
 
 </div>
+
 
 
 
