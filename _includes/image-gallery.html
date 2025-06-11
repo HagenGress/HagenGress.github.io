@@ -1,7 +1,8 @@
 {% assign image_paths = include.images | split: ", " %}
 {% assign gallery_height = include.height | default: "300" %}
+{% assign alignment = include.alignment | default: "right" %}
 
-<div class="image-gallery" style="--gallery-height: {{ gallery_height }}px;">
+<div class="image-gallery" style="--gallery-height: {{ gallery_height }}px; text-align: {{ alignment }};">
   {% for image_path in image_paths %}
       {% assign image_name = image_path | strip %}
       {% if image_name contains 'https://' %}
