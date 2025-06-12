@@ -1,0 +1,78 @@
+{% assign media_paths = include.images | split: ", " %}
+{% assign gallery_width = include.width | default: "300" %}
+{% assign caption = include.caption | default: "" %}
+
+
+<!-- Layout: caption left, media right -->
+<div style="
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+  margin-bottom: 2rem;
+">
+
+  <!-- Left-aligned caption -->
+  <div style="
+    text-align: left;
+    flex: 1 1 300px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+  ">
+    <div>
+      {{ caption }}
+    </div>
+  </div>
+
+  <!-- Media: images, gifs, or videos -->
+  <div style="
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex: 1 1 300px;
+  ">
+    {% for media_path in media_paths %}
+      {% assign media_name = media_path | strip %}
+      {% assign extension = media_name | split: '.' | last | downcase %}
+
+      {% if media_name contains 'https://' %}
+        {% assign full_path = media_name %}
+      {% else %}
+        {% assign page_url_without_index = page.url | remove: 'index' | remove: '.html' %}
+        {% assign full_path = page_url_without_index | append: media_name %}
+      {% endif %}
+
+      {% if extension == "mp4" %}
+        <video 
+          src="{{ full_path }}" 
+          controls 
+          muted 
+          playsinline 
+          style="width: {{ gallery_width }}px;"
+        ></video>
+
+      {% elsif extension == "gif" %}
+        <img 
+          src="{{ full_path }}" 
+          alt="GIF" 
+          loading="lazy" 
+          style="width: {{ gallery_width }}px;"
+        />
+
+      {% else %}
+        <img 
+          src="{{ full_path }}" 
+          alt="{{ media_name }}" 
+          loading="lazy" 
+          style="width: {{ gallery_width }}px;"
+          onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');"
+        />
+      {% endif %}
+    {% endfor %}
+  </div>
+
+</div>
