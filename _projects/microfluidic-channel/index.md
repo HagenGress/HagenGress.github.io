@@ -14,11 +14,15 @@ main-image: /Diffusion_Microchannel.png
 
 ## Design Steps
 
-{% include image-gallery.html
-   images="Aluminum-Inlay.jpg, TestFixture3.jpg, Cross-Section.jpg"
-   captions="Microscope setup||Experimental result||Supplementary video"
+{% include image-gallery.html 
+   images="
+     { 'path': 'Aluminum-Inlay.jpg', 'caption': 'Microscope setup' },
+     { 'path': 'TestFixture3.jpg', 'caption': 'Experimental result' },
+     { 'path': 'Cross-Section.jpg', 'caption': 'Supplementary video' }
+   "
    width="300"
 %}
+
 
 {% include image-gallery.html 
    images="Aluminum-Inlay.jpg" 
