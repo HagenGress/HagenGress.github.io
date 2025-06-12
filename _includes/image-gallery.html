@@ -1,7 +1,4 @@
-{% assign raw_items = include.images | strip %}
-{% assign raw_items = raw_items | replace: "},", "}||" %}
-{% assign raw_items = raw_items | remove: "[" | remove: "]" %}
-{% assign raw_list = raw_items | split: "||" %}
+{% assign media_paths = include.images | split: ", " %}
 {% assign gallery_width = include.width | default: "300" %}
 {% assign page_url_without_index = page.url | remove: 'index' | remove: '.html' %}
 
@@ -10,37 +7,35 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    width: 100%;
     margin-bottom: 2rem;
   }
   .media-item {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    text-align: left;
   }
   .media-caption {
     margin-bottom: 0.5rem;
     font-weight: bold;
+    text-align: left;
   }
 </style>
 
 <div class="media-grid">
-  {% for item_string in raw_list %}
-    {% assign item_string = item_string | replace: "'", '"' %}
-    {% assign path = item_string | split: ',"caption":' | first | replace: '{"path": "', '' | replace: '"', '' %}
-    {% assign caption = item_string | split: ',"caption":' | last | remove: '}' | remove: '"' %}
-    {% assign extension = path | split: '.' | last | downcase %}
+  {% for media_entry in media_paths %}
+    {% assign entry = media_entry | split: "::" %}
+    {% assign media_name = entry[0] | strip %}
+    {% assign caption = entry[1] | default: "" | strip %}
+    {% assign extension = media_name | split: '.' | last | downcase %}
 
-    {% if path contains 'https://' %}
-      {% assign full_path = path %}
+    {% if media_name contains 'https://' %}
+      {% assign full_path = media_name %}
     {% else %}
-      {% assign full_path = page_url_without_index | append: path %}
+      {% assign full_path = page_url_without_index | append: media_name %}
     {% endif %}
 
     <div class="media-item">
       <div class="media-caption">{{ forloop.index }}. {{ caption }}</div>
-
       {% if extension == "mp4" %}
         <video 
           src="{{ full_path }}" 
