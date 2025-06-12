@@ -34,7 +34,7 @@ main-image: /Diffusion_Microchannel.png
    images="Cross-Section.jpg" 
    width="350" 
    caption="<ul>
-     <li>designed and built a test fixture for easy integration with the experimental setup</li>
+     <li>fabricated microchannels using ultrasonic welding</li>
    </ul>" 
 %}
 
