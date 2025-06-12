@@ -3,6 +3,7 @@
 {% assign raw_items = raw_items | remove: "[" | remove: "]" %}
 {% assign raw_list = raw_items | split: "||" %}
 {% assign gallery_width = include.width | default: "300" %}
+{% assign page_url_without_index = page.url | remove: 'index' | remove: '.html' %}
 
 <style>
   .media-grid {
@@ -34,8 +35,7 @@
     {% if path contains 'https://' %}
       {% assign full_path = path %}
     {% else %}
-      {% assign page_folder = page.url | remove: page.name %}
-      {% assign full_path = page_folder | append: path %}
+      {% assign full_path = page_url_without_index | append: path %}
     {% endif %}
 
     <div class="media-item">
