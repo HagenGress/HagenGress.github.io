@@ -16,12 +16,12 @@ main-image: /Diffusion_Microchannel.png
 
 {% include image-gallery.html 
    images="
-     { 'path': 'Aluminum-Inlay.jpg', 'caption': 'Microscope setup' },
-     { 'path': 'TestFixture3.jpg', 'caption': 'Experimental result' },
-     { 'path': 'Cross-Section.jpg', 'caption': 'Supplementary video' }
-   "
+     Aluminum-Inlay.jpg::Microscope setup, 
+     TestFixture3.jpg::Experimental result, 
+     Cross-Section.jpg::Supplementary video"
    width="300"
 %}
+
 
 
 {% include image-gallery.html 
