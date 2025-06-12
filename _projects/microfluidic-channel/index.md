@@ -15,18 +15,27 @@ main-image: /Diffusion_Microchannel.png
 ## Design Steps
 
 {% include image-gallery.html 
-   images="TestFixture.jpg, TestFixture2.jpg" 
+   images="Aluminum-Inlay.jpg" 
    height="180" 
    caption="<ul>
-     <li>designed and built a test fixture for easy integration with the experimental setup</li>
-     <li>second point</li>
+     <li>fabricated aluminum inlays for temperature control via Joule heating</li>
    </ul>" 
 %}
 
 {% include image-gallery.html 
-   images="Abb2-5.jpg" 
+   images="TestFixture.jpg, TestFixture2.jpg" 
    height="180" 
-   caption="<p>Here’s a description of the image gallery.</p>" 
+   caption="<ul>
+     <li>designed and built a test fixture for easy integration with the experimental setup</li>
+   </ul>" 
+%}
+
+{% include image-gallery.html 
+   images="Cross-Section.jpg" 
+   height="100" 
+   caption="<ul>
+     <li>designed and built a test fixture for easy integration with the experimental setup</li>
+   </ul>" 
 %}
 
 
