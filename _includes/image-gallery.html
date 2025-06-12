@@ -31,12 +31,19 @@
     {% assign caption = item_string | split: ',"caption":' | last | remove: '}' | remove: '"' %}
     {% assign extension = path | split: '.' | last | downcase %}
 
+    {% if path contains 'https://' %}
+      {% assign full_path = path %}
+    {% else %}
+      {% assign page_folder = page.url | remove: page.name %}
+      {% assign full_path = page_folder | append: path %}
+    {% endif %}
+
     <div class="media-item">
       <div class="media-caption">{{ forloop.index }}. {{ caption }}</div>
 
       {% if extension == "mp4" %}
         <video 
-          src="{{ path }}" 
+          src="{{ full_path }}" 
           controls 
           muted 
           playsinline 
@@ -44,7 +51,7 @@
         ></video>
       {% else %}
         <img 
-          src="{{ path }}" 
+          src="{{ full_path }}" 
           alt="{{ caption }}" 
           loading="lazy" 
           style="width: {{ gallery_width }}px;"
