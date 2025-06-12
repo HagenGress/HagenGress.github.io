@@ -19,7 +19,7 @@ main-image: /Diffusion_Microchannel.png
      Aluminum-Inlay.jpg::Microscope setup, 
      TestFixture3.jpg::Experimental result, 
      Cross-Section.jpg::Supplementary video"
-   width="300"
+   width="550"
 %}
 
 
