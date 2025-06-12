@@ -35,7 +35,7 @@
     {% endif %}
 
     <div class="media-item">
-      <div class="media-caption">{{ forloop.index }}. {{ caption }}</div>
+      <div class="media-caption" style="font-weight: normal;">{{ forloop.index }}. {{ caption }}</div>
       {% if extension == "mp4" %}
         <video 
           src="{{ full_path }}" 
