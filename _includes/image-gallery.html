@@ -1,50 +1,43 @@
 {% assign media_paths = include.images | split: ", " %}
+{% assign media_captions = include.captions | split: "||" %}
 {% assign gallery_width = include.width | default: "300" %}
-{% assign caption = include.caption | default: "" %}
 
-
-<!-- Layout: caption left, media right -->
-<div style="
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  gap: 2rem;
-  margin-bottom: 2rem;
-">
-
-  <!-- Left-aligned caption -->
-  <div style="
+<style>
+  .media-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .media-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     text-align: left;
-    flex: 1 1 300px;
-    max-width: 500px;
-    display: flex;
-    align-items: center;
-  ">
-    <div>
-      {{ caption }}
-    </div>
-  </div>
+  }
+  .media-caption {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+</style>
 
-  <!-- Media: images, gifs, or videos -->
-  <div style="
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    flex: 1 1 300px;
-  ">
-    {% for media_path in media_paths %}
-      {% assign media_name = media_path | strip %}
-      {% assign extension = media_name | split: '.' | last | downcase %}
+<div class="media-grid">
+  {% assign index = 0 %}
+  {% for media_path in media_paths %}
+    {% assign media_name = media_path | strip %}
+    {% assign caption = media_captions[index] | default: "Figure " | append: index | plus: 1 %}
+    {% assign extension = media_name | split: '.' | last | downcase %}
 
-      {% if media_name contains 'https://' %}
-        {% assign full_path = media_name %}
-      {% else %}
-        {% assign page_url_without_index = page.url | remove: 'index' | remove: '.html' %}
-        {% assign full_path = page_url_without_index | append: media_name %}
-      {% endif %}
+    {% if media_name contains 'https://' %}
+      {% assign full_path = media_name %}
+    {% else %}
+      {% assign page_url_without_index = page.url | remove: 'index' | remove: '.html' %}
+      {% assign full_path = page_url_without_index | append: media_name %}
+    {% endif %}
+
+    <div class="media-item">
+      <div class="media-caption">{{ caption }}</div>
 
       {% if extension == "mp4" %}
         <video 
@@ -55,14 +48,6 @@
           style="width: {{ gallery_width }}px;"
         ></video>
 
-      {% elsif extension == "gif" %}
-        <img 
-          src="{{ full_path }}" 
-          alt="GIF" 
-          loading="lazy" 
-          style="width: {{ gallery_width }}px;"
-        />
-
       {% else %}
         <img 
           src="{{ full_path }}" 
@@ -72,7 +57,8 @@
           onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');"
         />
       {% endif %}
-    {% endfor %}
-  </div>
+    </div>
 
+    {% assign index = index | plus: 1 %}
+  {% endfor %}
 </div>
