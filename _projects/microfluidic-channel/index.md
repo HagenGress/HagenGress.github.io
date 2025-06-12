@@ -16,7 +16,7 @@ main-image: /Diffusion_Microchannel.png
 
 {% include image-gallery.html 
    images="Aluminum-Inlay.jpg" 
-   height="180" 
+   width="300" 
    caption="<ul>
      <li>fabricated aluminum inlays for temperature control via Joule heating</li>
    </ul>" 
@@ -24,7 +24,7 @@ main-image: /Diffusion_Microchannel.png
 
 {% include image-gallery.html 
    images="TestFixture.jpg, TestFixture2.jpg" 
-   height="180" 
+   width="180" 
    caption="<ul>
      <li>designed and built a test fixture for easy integration with the experimental setup</li>
    </ul>" 
@@ -32,7 +32,7 @@ main-image: /Diffusion_Microchannel.png
 
 {% include image-gallery.html 
    images="Cross-Section.jpg" 
-   height="100" 
+   width="150" 
    caption="<ul>
      <li>designed and built a test fixture for easy integration with the experimental setup</li>
    </ul>" 
