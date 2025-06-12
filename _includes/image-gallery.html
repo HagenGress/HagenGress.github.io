@@ -1,5 +1,7 @@
-{% assign media_paths = include.images | split: ", " %}
-{% assign media_captions = include.captions | split: "||" %}
+{% assign raw_items = include.images | strip %}
+{% assign raw_items = raw_items | replace: "},", "}||" %}
+{% assign raw_items = raw_items | remove: "[" | remove: "]" %}
+{% assign raw_list = raw_items | split: "||" %}
 {% assign gallery_width = include.width | default: "300" %}
 
 <style>
@@ -23,17 +25,17 @@
 </style>
 
 <div class="media-grid">
-  {% assign index = 0 %}
-  {% for media_path in media_paths %}
-    {% assign media_name = media_path | strip %}
-    {% assign caption = media_captions[index] | default: "Figure " | append: index | plus: 1 %}
-    {% assign extension = media_name | split: '.' | last | downcase %}
+  {% for item_string in raw_list %}
+    {% assign item_string = item_string | replace: "'", '"' %}
+    {% assign path = item_string | split: ',"caption":' | first | replace: '{"path": "', '' | replace: '"', '' %}
+    {% assign caption = item_string | split: ',"caption":' | last | remove: '}' | remove: '"' %}
+    {% assign extension = path | split: '.' | last | downcase %}
 
-    {% if media_name contains 'https://' %}
-      {% assign full_path = media_name %}
+    {% if path contains 'https://' %}
+      {% assign full_path = path %}
     {% else %}
       {% assign page_url_without_index = page.url | remove: 'index' | remove: '.html' %}
-      {% assign full_path = page_url_without_index | append: media_name %}
+      {% assign full_path = page_url_without_index | append: path %}
     {% endif %}
 
     <div class="media-item">
@@ -47,18 +49,15 @@
           playsinline 
           style="width: {{ gallery_width }}px;"
         ></video>
-
       {% else %}
         <img 
           src="{{ full_path }}" 
-          alt="{{ media_name }}" 
+          alt="{{ path }}" 
           loading="lazy" 
           style="width: {{ gallery_width }}px;"
           onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');"
         />
       {% endif %}
     </div>
-
-    {% assign index = index | plus: 1 %}
   {% endfor %}
 </div>
