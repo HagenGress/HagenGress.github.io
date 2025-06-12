@@ -34,8 +34,9 @@
     {% if path contains 'https://' %}
       {% assign full_path = path %}
     {% else %}
-      {% assign page_url_without_index = page.url | remove: 'index' | remove: '.html' %}
-      {% assign full_path = page_url_without_index | append: path %}
+      {% assign page_folder = page.url | replace: page.name, "" %}
+      {% assign relative_path = page_folder | append: path %}
+      {% assign full_path = site.baseurl | append: relative_path %}
     {% endif %}
 
     <div class="media-item">
