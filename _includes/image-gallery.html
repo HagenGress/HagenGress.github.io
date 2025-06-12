@@ -1,8 +1,9 @@
 {% assign media_paths = include.images | split: ", " %}
-{% assign gallery_height = include.height | default: "300" %}
+{% assign gallery_width = include.width | default: "300" %}
 {% assign caption = include.caption | default: "" %}
 
-<!-- One row: vertically centered caption + media group -->
+
+<!-- Layout: caption left, media right -->
 <div style="
   display: flex;
   flex-wrap: wrap;
@@ -13,7 +14,7 @@
   margin-bottom: 2rem;
 ">
 
-  <!-- Vertically centered, flush-left caption -->
+  <!-- Left-aligned caption -->
   <div style="
     text-align: left;
     flex: 1 1 300px;
@@ -26,7 +27,7 @@
     </div>
   </div>
 
-  <!-- Media group (images, GIFs, videos) -->
+  <!-- Media: images, gifs, or videos -->
   <div style="
     display: flex;
     justify-content: center;
@@ -51,7 +52,7 @@
           controls 
           muted 
           playsinline 
-          style="height: {{ gallery_height }}px;"
+          style="width: {{ gallery_width }}px;"
         ></video>
 
       {% elsif extension == "gif" %}
@@ -59,7 +60,7 @@
           src="{{ full_path }}" 
           alt="GIF" 
           loading="lazy" 
-          style="height: {{ gallery_height }}px;"
+          style="width: {{ gallery_width }}px;"
         />
 
       {% else %}
@@ -67,7 +68,7 @@
           src="{{ full_path }}" 
           alt="{{ media_name }}" 
           loading="lazy" 
-          style="height: {{ gallery_height }}px;"
+          style="width: {{ gallery_width }}px;"
           onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');"
         />
       {% endif %}
@@ -75,6 +76,7 @@
   </div>
 
 </div>
+
 
 
 
