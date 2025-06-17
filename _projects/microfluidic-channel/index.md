@@ -23,6 +23,10 @@ main-image: /Diffusion_Microchannel.png
    width="550"
 %}
 
+{% include image-gallery.html 
+   images="Microchannel_4.jpg::Test image"
+   width="550"
+%}
 
 
 
