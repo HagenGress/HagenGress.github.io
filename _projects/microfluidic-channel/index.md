@@ -17,8 +17,8 @@ main-image: /Diffusion_Microchannel.png
 {% include image-gallery.html 
    images="
      Microchannel_1.jpg::CNC-machined aluminum inlays for temperature control., 
-     Microchannel_2.jpg::Designed a test fixture for experiments under constant flow.,
-     Microchannel_3.jpg::Fabricated microchannels with ultrasonic hot embossing and ultrasonic welding.,
+     Microchannel_2.jpg::Designed a test fixture for experiments under constant flow., 
+     Microchannel_3.jpg::Fabricated microchannels with ultrasonic hot embossing and ultrasonic welding., 
      Microchannel_4.jpg::Determined diffusion coefficients via Raman Spectroscopy."
    width="550"
 %}
