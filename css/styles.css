@@ -227,10 +227,14 @@ nav .mobile-nav {
 }
 
 .hero-section .headshot img {
-    width: 400px;
+    /* width: 400px;
     aspect-ratio: 1/1;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 50%;*/
+    width: 100%;
+    height: auto; /* Keeps aspect ratio */
+    object-fit: contain; /* Prevent cropping */
+    border-radius: 0; /* Optional: remove circular shape */
 }
 
 /* NAVIGATION ARROW */
