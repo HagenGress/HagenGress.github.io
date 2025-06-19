@@ -23,6 +23,17 @@ main-image: /Microchannel_TitlePicture-01.jpg
    width="550"
 %}
 
+## Skills Used
+
+<div class="skills-card">
+  <div class="skills-list">
+    <span class="skill">Ultrasonic Hot Embossing</span>
+    <span class="skill">Ultrasonic Welding</span>
+    <span class="skill">CNC Milling</span>
+    <span class="skill">Microfluidics</span>
+    <span class="skill">Raman Spectroscopy</span>
+  </div>
+</div>
 
 
 
