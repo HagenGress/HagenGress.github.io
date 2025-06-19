@@ -23,7 +23,7 @@ main-image: /Microchannel_TitlePicture-01.jpg
    width="550"
 %}
 
-<div class="summary">
+<div class="summary" style="margin-left: 0; padding-left: 0;">
   <div class="skills-card">
     <h2>Skills Used</h2>
     <div class="skills-list">
