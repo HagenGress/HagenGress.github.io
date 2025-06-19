@@ -18,14 +18,16 @@ layout: wrapper
             <h2>Project Overview</h2>
             <p>{{ page.description }}</p>
         </div>
-        <div class="skills-card">
-            <h2>Skills Used</h2> 
+        {% if page.skills and page.skills.size > 0 %}
+          <div class="skills-card">
+            <h2>Skills Used</h2>
             <div class="skills-list">
-                {% for skill in page.skills %}
-                <span class="skill">{{ skill }}</span>    
-                {% endfor %}
+              {% for skill in page.skills %}
+                <span class="skill">{{ skill }}</span>
+              {% endfor %}
             </div>
-        </div>
+          </div>
+        {% endif %}
     </div>
       
     <div class="content">
