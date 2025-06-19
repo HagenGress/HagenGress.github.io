@@ -14,6 +14,8 @@ main-image: /Microchannel_TitlePicture-01.jpg
 
 ## Design Steps
 
+<br>
+
 {% include image-gallery.html 
    images="
      Microchannel_1.jpg::CNC-machined aluminum inlays for temperature control via Joule heating., 
