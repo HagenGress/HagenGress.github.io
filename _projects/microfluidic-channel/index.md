@@ -9,7 +9,7 @@ skills:
   - Microfluidics
   - Raman Spectroscopy
 
-main-image: /Diffusion_Microchannel.png
+main-image: /Microchannel_TitlePicture-01.jpg
 ---
 
 ## Design Steps
