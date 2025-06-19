@@ -2,8 +2,8 @@
 layout: post
 title: Microfluidic System for Multicomponent Diffusion
 description: I designed and fabricated cheap and disposable microfluidic channels to simultaneously determine all diffusion coefficients in liquid mixtures containing two or more substances. 
-<!-- skills:
-- Solidworks -->
+skills:
+- Solidworks
 
 
 main-image: /Microchannel_TitlePicture-01.jpg
