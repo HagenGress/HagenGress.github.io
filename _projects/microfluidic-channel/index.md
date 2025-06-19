@@ -10,7 +10,6 @@ main-image: /Microchannel_TitlePicture-01.jpg
 
 ## Design Steps
 
-<br>
 
 {% include image-gallery.html 
    images="
