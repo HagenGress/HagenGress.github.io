@@ -12,7 +12,7 @@ main-image: /Microfluidic_Chamber_TitlePicture.jpg
 
 
 {% include image-gallery.html 
-   images="Microfluidic_Chamber_1.jpg::Created a CAD model and PCB layout for the chamber. A mold was designed to pour the PDMS gaskets., Microfluidic_Chamber_2.jpg::Coordinated with the machine shop and a PCB supplier to build the chamber., Microfluidic_Chamber_3.jpg::Measured frequency changes in different liquids and varying flow rates using a syringe pump and a phase-locked loop." 
+   images="Microfluidic_Chamber_1.jpg::Created a CAD model and PCB layout for the chamber. A mold was designed to pour the PDMS gaskets.| Microfluidic_Chamber_2.jpg::Coordinated with the machine shop and a PCB supplier to build the chamber.| Microfluidic_Chamber_3.jpg::Measured frequency changes in different liquids and varying flow rates using a syringe pump and a phase-locked loop." 
    width="550"
 %}
 
