@@ -13,7 +13,10 @@ main-image: /Bacteria_TitlePicture.jpg
 
 {% include image-gallery.html 
    images="
-     Bacteria_1.jpg::Derived an analytical model for the fluctuations in ion concentration across the bacterial membrane.,Bacteria_5.jpg::Fabricated microfluidic devices using PDMS casting, thin-film deposition, and plasma bonding.,Bacteria_2.jpg::Measured the electrical resistance fluctuations across microchannels filled with bacteria.,Bacteria_4.jpg::Compared fluctuation measurements of healthy bacteria and bacteria exposed to antibiotics."
+     Bacteria_1.jpg::Derived an analytical model for the fluctuations in ion concentration across the bacterial membrane., 
+     Bacteria_2.jpg::Fabricated microfluidic devices using PDMS casting, thin-film deposition, and plasma bonding., 
+     Bacteria_3.jpg::Measured the electrical resistance fluctuations across microchannels filled with bacteria., 
+     Bacteria_4.jpg::Compared fluctuation measurements of healthy bacteria and bacteria exposed to antibiotics."
    width="550"
 %}
 
