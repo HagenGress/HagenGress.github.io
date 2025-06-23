@@ -9,7 +9,7 @@ skills: []
 main-image: /3D-MEMS_TitlePicture.jpg
 ---
 
-## Design Steps
+## Design and Experimental Highlights
 
 
 {% include image-gallery.html 
