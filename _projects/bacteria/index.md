@@ -2,6 +2,7 @@
 layout: post
 title: Antibacterial Susceptibility Testing (AST)
 description: I fabricated a microfluidic platform for AST and used an all-electrical detection scheme to measure ion concentration fluctuations as an indicator of bacteria viability. 
+order: 3
 skills: []
 
 
