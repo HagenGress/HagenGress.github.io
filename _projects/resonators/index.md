@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MEMS/NEMS Resonators
+location: Boston University, 2021-2025
 description: Explored a range of micro- and nano-scale mechanical resonators, focusing on thermal noise characterization, electromechanical transducer integration, and performance comparisons between solid-state and polymeric systems. 
 order: 1
 skills: []
