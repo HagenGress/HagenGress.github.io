@@ -16,7 +16,12 @@
                             <a href="https://www.linkedin.com/in/{{ site.external-links[platform] }}/" target="_blank">
                                 <i class="fa-brands fa-linkedin"></i>
                             </a>
-                        
+
+                            {% when 'scholar' %}
+                            <a href="https://scholar.google.com/citations?user={{ site.external-links[platform] }}/" target="_blank">
+                                <i class="fa-brands fa-scholar"></i>
+                            </a>
+                    
                             {% when 'github' %}
                                 <a href="https://github.com/{{ site.external-links[platform] }}/" target="_blank">
                                     <i class="fa-brands fa-github"></i>
