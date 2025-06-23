@@ -8,7 +8,7 @@
                 Hagen Gress
                 {% if site.external-links %}
                 <span class="external-links">
-                    {% assign platforms = "linkedin,x-twitter,github,stackoverflow,discord,medium,threads,bluesky,instagram,youtube" | split: "," %}
+                    {% assign platforms = "linkedin,scholar,x-twitter,github,stackoverflow,discord,medium,threads,bluesky,instagram,youtube" | split: "," %}
                     {% for platform in platforms %}
                         {% if site.external-links[platform] %}
                             {% case platform %}
