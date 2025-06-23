@@ -13,9 +13,9 @@ main-image: /3D-MEMS_TitlePicture.jpg
 
 {% include image-gallery.html 
    images="
-     3D-MEMS_2.jpg::Assembled an optical interferometer for displacement measurements with picometer resolution.                                                                                       | 
+     3D-MEMS_2.jpg::Assembled a homodyne Michelson interferometer for displacement measurements with picometer resolution. Installed an experimental chamber capable of measurements in vacuum.| 
      3D-MEMS_3.jpg::Studied the spatial and temporal correlations of Brownian noise by measuring the thermal fluctuations of multiple modes of silicon nitride beams immersed in viscous fluids.| 
-     3D-MEMS_1.jpg::Designed and fabricated 3D-printed micromechanical resonators with electrothermal actuation and piezoresistive detection circuits.| 
+     3D-MEMS_1.jpg::Designed and fabricated 3D-printed micromechanical resonators. I used thin-film evaporation to deposit gold electrodes for the electrothermal actuation and piezoresistive detection of oscillations.| 
      3D-MEMS_4.jpg::Investigated material properties such as thermal conductivity and heat capacity through experiments with Joule heating and COMSOL simulations."
    width="550"
 %}
