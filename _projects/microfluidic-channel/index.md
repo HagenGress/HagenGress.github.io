@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Microfluidic System for Multicomponent Diffusion
-description: I designed and fabricated cheap and disposable microfluidic channels to simultaneously determine all diffusion coefficients in liquid mixtures containing two or more substances. 
+location: Master's Thesis, RWTH Aachen University (Germany), 2018
+description: Developed low-cost, disposable microfluidic channels to simultaneously measure diffusion coefficients in multicomponent liquid mixtures. 
 order: 4
 skills: []
 
@@ -9,21 +10,21 @@ skills: []
 main-image: /Microchannel_TitlePicture-01.jpg
 ---
 
-## Design Steps
+## Design and Experimental Highlights
 
 
 {% include image-gallery.html 
    images="
-     Microchannel_1.jpg::CNC-machined aluminum inlays for temperature control via Joule heating.| 
-     Microchannel_5.jpg::Fabricated microchannels with ultrasonic hot embossing and ultrasonic welding.| 
-     Microchannel_2.jpg::Designed and built a test fixture for experiments under constant flow.| 
-     Microchannel_4.jpg::Determined diffusion coefficients via Raman Spectroscopy."
+     Microchannel_1.jpg::Machined aluminum inlays using CNC tools to enable temperature control via Joule heating.| 
+     Microchannel_5.jpg::Fabricated microfluidic channels through ultrasonic hot embossing and sealed them using ultrasonic welding.| 
+     Microchannel_2.jpg::Designed and assembled a custom test fixture for steady-state flow experiments.| 
+     Microchannel_4.jpg::Measured individual diffusion coefficients using high-resolution Raman spectroscopy."
    width="550"
 %}
 
 <div class="summary" style="margin-left: 0; padding-left: 0;">
   <div class="skills-card">
-    <h2>Skills Used</h2>
+    <h2>Skills Applied</h2>
     <div class="skills-list">
       <span class="skill">Ultrasonic Hot Embossing</span>
       <span class="skill">Ultrasonic Welding</span>
