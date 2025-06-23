@@ -12,6 +12,11 @@
             {% assign image_path = "/" | append: folder_path | append: item['main-image'] %}
             <img src="{{ image_path }}" alt="{{ item.title }} image">
             <h3 class="project-title">{{ item.title }}</h3>
+            {% if item.location %}
+                <p class="project-location" style="font-style: italic; font-size: 0.95rem; margin-top: -0.5rem; margin-bottom: 0.5rem; color: #333;">
+                    {{ item.location }}
+                </p>
+            {% endif %}
             <div class="project-skills">
                 {% for skill in item.skills %}
                     <span class="skill">{{ skill }}</span>
