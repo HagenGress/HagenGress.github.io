@@ -2,6 +2,7 @@
 layout: post
 title: Microfluidic Chamber for Experiments on MEMS Resonators in Liquids
 description: I designed and build a leakage-free microfluidic chamber to study the effects of different liquids and flow rates on the resonance frequency of MEMS resonators. 
+order: 2
 skills: []
 
 
