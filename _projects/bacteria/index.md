@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Antibacterial Susceptibility Testing (AST)
-description: I fabricated a microfluidic platform for AST and used an all-electrical detection scheme to measure ion concentration fluctuations as an indicator of bacteria viability. 
+location: Research Project, Boston University, 2019-2021
+description: Developed a microfluidic platform for rapid AST using all-electrical detection of ion concentration fluctuations as a proxy for bacterial viability. 
 order: 3
 skills: []
 
@@ -9,15 +10,15 @@ skills: []
 main-image: /Bacteria_TitlePicture.jpg
 ---
 
-## Design Steps
+## Design and Experimental Highlights
 
 
 {% include image-gallery.html 
    images="
-     Bacteria_1.jpg::Derived an analytical model for the fluctuations in ion concentration across the bacterial membrane.| 
-     Bacteria_2.jpg::Fabricated microfluidic devices using PDMS casting, thin-film deposition, and plasma bonding.| 
-     Bacteria_3.jpg::Measured the electrical resistance fluctuations across microchannels filled with bacteria.| 
-     Bacteria_4.jpg::Compared fluctuation measurements of healthy bacteria and bacteria exposed to antibiotics."
+     Bacteria_1.jpg::Formulated an analytical model describing ion concentration fluctuations across bacterial membranes.| 
+     Bacteria_2.jpg::Fabricated microfluidic chips using PDMS casting, thin-film metal deposition, and plasma bonding.| 
+     Bacteria_3.jpg::Monitored real-time resistance fluctuations across bacteria-filled microchannels to assess cellular activity.| 
+     Bacteria_4.jpg::Compared signal profiles of untreated bacteria and those exposed to antibiotics to evaluate drug efficacy."
    width="550"
 %}
 
@@ -37,13 +38,3 @@ main-image: /Bacteria_TitlePicture.jpg
 
 
 
-
-
-
-
-<!--- designed and fabricated molds for ultrasonic hot embossing
-- used ultrasonic hot embossing and ultrasonic welding to create the microchannels
-- integrated CNC-milled aluminum inlays for temperature control via Joule heating
-- designed and built a test fixture for easy integration with the experimental setup
-- used Raman spectroscopy to evaluate the performance of the diffusion experiments
--->
