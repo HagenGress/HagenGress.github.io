@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Microfluidic Chamber for Experiments on MEMS Resonators in Liquids
-description: I designed and build a leakage-free microfluidic chamber to study the effects of different liquids and flow rates on the resonance frequency of MEMS resonators. 
+title: Microfluidic Chamber
+location: Research Project, Boston University, 2021
+description: Designed and built a leak-proof microfluidic chamber to investigate how various liquids and flow rates influence the resonance frequency of MEMS resonators. 
 order: 2
 skills: []
 
@@ -9,11 +10,11 @@ skills: []
 main-image: /Microfluidic_Chamber_TitlePicture.jpg
 ---
 
-## Design Steps
+## Design and Experimental Highlights
 
 
 {% include image-gallery.html 
-   images="Microfluidic_Chamber_1.jpg::Created a CAD model and PCB layout for the chamber. A mold was designed to pour the PDMS gaskets.| Microfluidic_Chamber_2.jpg::Coordinated with the machine shop and a PCB supplier to build the chamber.| Microfluidic_Chamber_3.jpg::Measured frequency changes in different liquids and varying flow rates using a syringe pump and a phase-locked loop." 
+   images="Microfluidic_Chamber_1.jpg::Designed a CAD model and PCB layout for the chamber. Created a custom mold to cast PDMS gaskets for fluid sealing.| Microfluidic_Chamber_2.jpg::Oversaw fabrication by coordinating with a precision machine shop and a PCB manufacturer.| Microfluidic_Chamber_3.jpg::Characterized the frequency response in different fluids and flow conditions using a syringe pump and a phase-locked loop measurement system." 
    width="550"
 %}
 
@@ -21,7 +22,7 @@ main-image: /Microfluidic_Chamber_TitlePicture.jpg
 
 <div class="summary" style="margin-left: 0; padding-left: 0;">
   <div class="skills-card">
-    <h2>Skills Used</h2>
+    <h2>Skills Applied</h2>
     <div class="skills-list">
       <span class="skill">SolidWorks</span>
       <span class="skill">PCB Design</span>
