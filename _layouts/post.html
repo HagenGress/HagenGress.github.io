@@ -10,6 +10,9 @@ layout: wrapper
         {% assign image_path = "/" | append: folder_path | append: page['main-image'] %}       
         <div class="title-header">
             <h1>{{page.title}}</h1>
+            {% if page.location %}
+                <p style="font-style: italic; font-size: 1rem; color: #666; margin-top: 0.25rem;">{{ page.location }}</p>
+            {% endif %}
         </div>
         <!--
         <img src="{{ image_path }}" alt="{{ page.title }} image">
