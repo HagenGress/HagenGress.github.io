@@ -6,7 +6,7 @@ order: 1
 skills: []
 
 
-<!--main-image: /3D-MEMS_TitlePicture.jpg-->
+main-image: /3D-MEMS_TitlePicture.jpg
 ---
 
 ## Design and Experimental Highlights
