@@ -2,6 +2,7 @@
 layout: post
 title: MEMS/NEMS Resonators
 description: I worked on a variety of micro- and nano-scale mechanical resonators, with a focus on thermal noise, the integration of electromechanical transducers, and a comparison between solid-state and polymeric devices. 
+order: 1
 skills: []
 
 
