@@ -8,12 +8,13 @@ layout: wrapper
        
         {% assign folder_path = page.path | split: "/" | slice: 0, 2 | join: "/" %}
         {% assign image_path = "/" | append: folder_path | append: page['main-image'] %}       
-        <div class="title-header">
-            <h1>{{page.title}}</h1>
-            {% if page.location %}
-                <p style="font-style: italic; font-size: 1rem; color: #666; margin-top: 0.25rem;">{{ page.location }}</p>
-            {% endif %}
-        </div>
+        <div class="title-header" style="display: flex; flex-direction: column; align-items: flex-start;">
+            <h1 style="margin-bottom: 0.2em;">{{ page.title }}</h1>
+                {% if page.location %}
+                    <p style="font-style: italic; font-size: 1.1rem; color: #000; margin: 0;">{{ page.location }}</p>
+                {% endif %}
+            </div>
+
         <!--
         <img src="{{ image_path }}" alt="{{ page.title }} image">
         -->
