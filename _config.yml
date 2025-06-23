@@ -13,9 +13,9 @@ title: Hagen Gress' Portfolio # This is what shows up in the tab of the browser
 
 # Hero Section
 name: Hagen Gress
-headline: PhD in Mechanical Engineering, Boston University, 2025
+headline: PhD in Mechanical Engineering, Boston University (2025)
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Hagen has a background in microfluidics and micro- and nano-mechanical sensing, including a variety of biomedical applications.
+  Hagen is a mechanical engineer with expertise in microfluidics and micro/nano-mechanical systems, particularly for biomedical and sensing applications. His work spans precision fabrication, experimental characterization, and system integration—ranging from custom microfluidic platforms to high-resolution MEMS/NEMS-based sensors.
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/Hagen_Gress-01.jpg
