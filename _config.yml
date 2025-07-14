@@ -44,12 +44,17 @@ external-links:    # input only your own url slug. The icons with missing entrie
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-  - category: Modeling
+  - category: Software
     tools:
     - Solidworks
     - PTC Creo
     - Solid Edge
-    - COMSOL
+    - COMSOL Multiphysics
+    - MATLAB
+    - OriginLab
+    - LateX
+    - Photoshop
+    - Illustrator
   - category: Fabrication
     tools:
     - Wet Bench
