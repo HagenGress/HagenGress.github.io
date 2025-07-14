@@ -46,7 +46,7 @@ external-links:    # input only your own url slug. The icons with missing entrie
 skills:
   - category: Software
     tools:
-    - Solidworks
+    - SolidWorks
     - PTC Creo
     - Solid Edge
     - COMSOL Multiphysics
