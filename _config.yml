@@ -44,40 +44,52 @@ external-links:    # input only your own url slug. The icons with missing entrie
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-  - category: Software
-    tools:
-    - SolidWorks
-    - PTC Creo
+  - category: Design & Simulation
+  tools:
+    - SolidWorks (CSWA-MD)
     - Solid Edge
+    - PTC Creo
+    - KLayout
     - COMSOL Multiphysics
+- category: Programming & Analysis
+  tools:
     - MATLAB
     - OriginLab
-    - LateX
-    - Photoshop
-    - Illustrator
-  - category: Fabrication
-    tools:
-    - Wet Bench
-    - Plasma Oven
+    - LabVIEW
+- category: Microfabrication
+  tools:
+    - Wetbench
+    - Plasma Asher
     - Spin Coater
     - Mask Writer
     - Mask Aligner
-    - 3D-Printer
-    - Electron Beam Evaporator
-    - Sputter Coater
+    - Dicing Saw
+    - Thin Film Deposition Systems
     - Ball Bonder
     - PDMS Casting
+    - Micro-/Nanoscale 3D-Printer
+- category: Laboratory Equipment
+  tools:
+    - Ultra-High Vacuum Systems
+    - Microfluidic Flow Controllers
+    - Optical Interferometry
+    - Atomic Force Microscopy
     - Scanning Electron Microscope
-  - category: Testing Equipment
-    tools:
-    - Michelson Interferometer
-    - Fabry-Perot Interferometer
-    - Vacuum Systems
-    - Oscilloscope
-    - Function Generator
-    - Lock-In Amplifier
-    - PID Controller
-    - Network/Spectrum Analyzer
+    - Dynamic Light Scattering
+- category: Instrumentation
+  tools:
+    - Digital Multimeters
+    - Function Generators
+    - Oscilloscopes
+    - Network/Spectrum Analyzers
+    - DAQ Boards
+    - Pre-Amplifiers
+    - Lock-In Amplifiers
+    - PID Controllers
+    - Attenuators
+    - Filters
+    - Power Splitters
+    - Bias Tees
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
 formspree-key:   https://formspree.io/f/{8-digit key}
