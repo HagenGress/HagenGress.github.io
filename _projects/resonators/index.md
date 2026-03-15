@@ -18,9 +18,9 @@ main-image: /3D-MEMS_TitlePicture.jpg
      3D-MEMS_2.jpg::Assembled a homodyne Michelson interferometer for picometer-scale displacement measurements. Installed a vacuum-compatible chamber for low-noise experiments.| 
      3D-MEMS_3.jpg::Characterized Brownian motion by analyzing spatial and temporal correlations of thermal fluctuations in multiple vibrational modes of silicon nitride beams in fluid environments.| 
      3D-MEMS_1.jpg::Designed and fabricated 3D-printed micromechanical resonators. Integrated gold electrodes using thin-film deposition for electrothermal actuation and piezoresistive sensing.| 
-     3D-MEMS_4.jpg::Investigated thermal properties such as conductivity and heat capacity through Joule heating experiments and finite-element simulations in COMSOL.|
-     3D-MEMS_6.jpg::Built a phase-locked loop to quantify the effects of the surrounding fluid to evaluate the device performance for gas sensing applications. Quantified frequency-tuning capabilities via Joule-heating induced temperature changes.|
-     3D-MEMS_5.jpg::Developed an analytical model describing the delamination dynamics and resonance behavior of pressurized two-dimensional polyaramid membranes.|"
+     3D-MEMS_4.jpg::Investigated thermal properties such as conductivity and heat capacity through Joule heating experiments and finite-element simulations in COMSOL.| 
+     3D-MEMS_6.jpg::Built a phase-locked loop to quantify the effects of the surrounding fluid to evaluate the device performance for gas sensing applications. Quantified frequency-tuning capabilities via Joule-heating induced temperature changes.| 
+     3D-MEMS_5.jpg::Developed an analytical model describing the delamination dynamics and resonance behavior of pressurized two-dimensional polyaramid membranes.| "
    width="550"
 %}
 
