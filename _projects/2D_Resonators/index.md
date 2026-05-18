@@ -15,7 +15,7 @@ main-image: /2D_Resonators.jpg
 
 {% include image-gallery.html 
    images="
-     2D_Resonators_1.jpg::Measured thermal displacement fluctuations of several eigenmodes to extract the Young's modulus and tension using a tensioned plate model.| 
+     2D_Resonators_1.jpg::Measured thermal displacement fluctuations of several eigenmodes to extract the Young's modulus and tension by matching the eigenfrequencies to a tensioned plate model.| 
      2D_Resonators_2.jpg::Used full-field interferometry for real-time deflection profiling of pressurized membranes to study the effects of bulging and delamination on resonance behavior.| "
    width="550"
 %}
