@@ -3,7 +3,7 @@ layout: post
 title: Microfluidic Chamber
 location: Research Project, Boston University, 2021
 description: Designed and built a leak-proof microfluidic chamber to investigate how various liquids and flow rates influence the resonance frequency of MEMS resonators. 
-order: 2
+order: 4
 skills: []
 
 
