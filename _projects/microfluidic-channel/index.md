@@ -18,7 +18,7 @@ main-image: /Microchannel_TitlePicture2.jpg
      Microchannel_1.jpg::Machined aluminum inlays using CNC tools to enable temperature control via Joule heating.| 
      Microchannel_5.jpg::Fabricated microfluidic channels through ultrasonic hot embossing and sealed them using ultrasonic welding.| 
      Microchannel_2.jpg::Designed and assembled a custom test fixture for steady-state flow experiments.| 
-     Microchannel_6.jpg::Measured individual diffusion coefficients using high-resolution Raman spectroscopy."
+     Microchannel_6.jpg::Measured individual diffusion coefficients using high-resolution Raman spectroscopy. "
    width="550"
 %}
 
