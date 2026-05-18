@@ -1,1 +1,50 @@
+---
+layout: post
+title: MEMS/NEMS Resonators
+location: Research Project, Boston University, 2021-present
+description: Explored a range of micro- and nano-scale mechanical resonators, focusing on material characterization, thermal noise, fluid-structure interaction, electromechanical transducer integration, and performance comparisons between solid-state and polymeric systems. 
+order: 3
+skills: []
+
+
+main-image: /NEMS.jpg
+---
+
+## Design and Experimental Highlights
+
+
+{% include image-gallery.html 
+   images="
+     NEMS_1.jpg::Assembled a homodyne Michelson interferometer for picometer-scale displacement measurements. Installed a vacuum-compatible chamber for low-noise experiments.| 
+     NEMS_2.jpg::Characterized Brownian motion by analyzing spatial and temporal correlations of thermal fluctuations in multiple vibrational modes of silicon nitride beams in fluid environments.| "
+   width="550"
+%}
+
+<div class="summary" style="margin-left: 0; padding-left: 0;">
+  <div class="skills-card">
+    <h2>Skills Applied</h2>
+    <div class="skills-list">
+      <span class="skill">SolidWorks</span>
+      <span class="skill">3D-Printing</span>
+      <span class="skill">Thin-Film Deposition</span>
+      <span class="skill">Optical Interferometry</span>
+      <span class="skill">Electrical Measurements</span>
+      <span class="skill">COMSOL Multiphysics</span>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!--- designed and fabricated molds for ultrasonic hot embossing
+- used ultrasonic hot embossing and ultrasonic welding to create the microchannels
+- integrated CNC-milled aluminum inlays for temperature control via Joule heating
+- designed and built a test fixture for easy integration with the experimental setup
+- used Raman spectroscopy to evaluate the performance of the diffusion experiments
+-->
+
 
