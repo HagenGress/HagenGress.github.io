@@ -3,7 +3,7 @@ layout: post
 title: Antibacterial Susceptibility Testing (AST)
 location: Research Project, Boston University, 2019-2021
 description: Developed a microfluidic platform for rapid AST using all-electrical detection of ion concentration fluctuations as a proxy for bacterial viability. 
-order: 3
+order: 5
 skills: []
 
 
