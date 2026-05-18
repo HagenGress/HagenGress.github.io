@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Two-Dimensional Polyaramid Resonators
-location: Research Project, Boston University, 2021-present
+location: Research Project, Boston University, 2024-present
 description: Explored a range of micro- and nano-scale mechanical resonators, focusing on material characterization, thermal noise, fluid-structure interaction, electromechanical transducer integration, and performance comparisons between solid-state and polymeric systems. 
 order: 2
 skills: []
