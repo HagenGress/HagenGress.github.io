@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MEMS/NEMS Resonators
+title: Two-Dimensional Polyaramid Resonators
 location: Research Project, Boston University, 2021-present
 description: Explored a range of micro- and nano-scale mechanical resonators, focusing on material characterization, thermal noise, fluid-structure interaction, electromechanical transducer integration, and performance comparisons between solid-state and polymeric systems. 
 order: 2
@@ -15,8 +15,8 @@ main-image: /2D_Resonators.jpg
 
 {% include image-gallery.html 
    images="
-     2D_Resonators_1.jpg::Assembled a homodyne Michelson interferometer for picometer-scale displacement measurements. Installed a vacuum-compatible chamber for low-noise experiments.| 
-     2D_Resonators_2.jpg::Characterized Brownian motion by analyzing spatial and temporal correlations of thermal fluctuations in multiple vibrational modes of silicon nitride beams in fluid environments.| "
+     2D_Resonators_1.jpg::Measured thermal displacement fluctuations of several eigenmodes to extract the Young's modulus and tension using a tensioned plate model.| 
+     2D_Resonators_2.jpg::Used full-field interferometry for real-time deflection profiling of pressurized membranes to study the effects of bulging and delamination on resonance behavior.| "
    width="550"
 %}
 
