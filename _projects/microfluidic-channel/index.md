@@ -3,7 +3,7 @@ layout: post
 title: Microfluidic System for Multicomponent Diffusion
 location: Master's Thesis, RWTH Aachen University (Germany), 2018
 description: Developed low-cost, disposable microfluidic channels to simultaneously measure diffusion coefficients in multicomponent liquid mixtures. 
-order: 4
+order: 6
 skills: []
 
 
