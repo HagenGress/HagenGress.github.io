@@ -15,9 +15,9 @@ main-image: /3D-MEMS_TitlePicture.jpg
 
 {% include image-gallery.html 
    images="
-     3D-MEMS_1.jpg::Designed and fabricated 3D-printed micromechanical resonators with integrated electromechanical transducers.|
-     3D-MEMS_2.jpg::Characterized the performance of electrothermal actuation and piezoresistive detection.|
-     3D-MEMS_3.jpg::Designed and fabricated 3D-printed micromechanical resonators. Integrated gold electrodes using thin-film deposition for electrothermal actuation and piezoresistive sensing.|
+     3D-MEMS_1.jpg::Designed and fabricated 3D-printed micromechanical resonators with integrated electromechanical transducers.| 
+     3D-MEMS_2.jpg::Characterized the performance of electrothermal actuation and piezoresistive detection.| 
+     3D-MEMS_3.jpg::Designed and fabricated 3D-printed micromechanical resonators. Integrated gold electrodes using thin-film deposition for electrothermal actuation and piezoresistive sensing.| 
      3D-MEMS_4.jpg::Built a phase-locked loop to quantify the dynamic effects of the surrounding fluid and evaluate the overall device performance for gas-sensing applications. Quantified frequency-tuning capabilities by inducing controlled temperature changes via Joule heating.| "
    width="550"
 %}
