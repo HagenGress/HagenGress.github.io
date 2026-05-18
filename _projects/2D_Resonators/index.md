@@ -7,7 +7,7 @@ order: 2
 skills: []
 
 
-main-image: /2D_Resonators.jpg
+main-image: /2D_Resonators_TitlePicture.jpg
 ---
 
 ## Design and Experimental Highlights
