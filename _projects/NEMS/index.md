@@ -2,12 +2,12 @@
 layout: post
 title: MEMS/NEMS Resonators
 location: Research Project, Boston University, 2021-present
-description: Explored a range of micro- and nano-scale mechanical resonators, focusing on material characterization, thermal noise, fluid-structure interaction, electromechanical transducer integration, and performance comparisons between solid-state and polymeric systems. 
+description: Characterized Brownian motion by analyzing spatial and temporal correlations of thermal fluctuations in multiple vibrational modes of silicon nitride beams in fluid environments. 
 order: 3
 skills: []
 
 
-main-image: /NEMS.jpg
+main-image: /NEMS_TitlePicture.jpg
 ---
 
 ## Design and Experimental Highlights
@@ -15,8 +15,8 @@ main-image: /NEMS.jpg
 
 {% include image-gallery.html 
    images="
-     NEMS_1.jpg::Assembled a homodyne Michelson interferometer for picometer-scale displacement measurements. Installed a vacuum-compatible chamber for low-noise experiments.| 
-     NEMS_2.jpg::Characterized Brownian motion by analyzing spatial and temporal correlations of thermal fluctuations in multiple vibrational modes of silicon nitride beams in fluid environments.| "
+     NEMS_1.jpg::Assembled and calibrated a homodyne Michelson interferometer for picometer-scale displacement measurements, implementing a control loop for path stabilization and evaluating the optical spot size.| 
+     NEMS_2.jpg::Predicted the resonance frequencies and quality factors of the first 12 eigenmodes of silicon nitride beams in different viscous fluids based on the natural frequencies in vacuum.| "
    width="550"
 %}
 
@@ -24,12 +24,10 @@ main-image: /NEMS.jpg
   <div class="skills-card">
     <h2>Skills Applied</h2>
     <div class="skills-list">
-      <span class="skill">SolidWorks</span>
-      <span class="skill">3D-Printing</span>
-      <span class="skill">Thin-Film Deposition</span>
+      <span class="skill">Ultra-High Vacuum Systems</span>
       <span class="skill">Optical Interferometry</span>
       <span class="skill">Electrical Measurements</span>
-      <span class="skill">COMSOL Multiphysics</span>
+      <span class="skill">MATLAB</span>
     </div>
   </div>
 </div>
