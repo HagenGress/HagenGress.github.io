@@ -1,8 +1,8 @@
 ---
 layout: post
-title: MEMS/NEMS Resonators
-location: Research Project, Boston University, 2021-present
-description: Characterized Brownian motion by analyzing spatial and temporal correlations of thermal fluctuations in multiple vibrational modes of silicon nitride beams in fluid environments. 
+title: Brownian Force Noise in NEMS Resonators
+location: Research Project, Boston University, 2021-2023
+description: Investigated the spatial and temporal correlations of Brownian force noise by analyzing the thermal displacement fluctuations of several eigenmodes of silicon nitride beams in fluid environments. 
 order: 3
 skills: []
 
