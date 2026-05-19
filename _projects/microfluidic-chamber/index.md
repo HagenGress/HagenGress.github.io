@@ -28,7 +28,7 @@ main-image: /Microfluidic_Chamber_TitlePicture.jpg
       <span class="skill">PCB Design</span>
       <span class="skill">PDMS Casting</span>
       <span class="skill">Microfluidics</span>
-      <span class="skill">Electrical Measurements</span>
+      <span class="skill">Electronic Instrumentation</span>
     </div>
   </div>
 </div>
