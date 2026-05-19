@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Brownian Force Noise in NEMS Resonators
+title: Brownian Force Noise in Viscous Fluids
 location: Research Project, Boston University, 2021-2023
 description: Investigated the spatial and temporal correlations of Brownian force noise by analyzing the thermal displacement fluctuations of several eigenmodes of silicon nitride beams in fluid environments. 
 order: 3
