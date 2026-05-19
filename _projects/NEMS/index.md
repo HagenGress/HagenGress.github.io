@@ -29,6 +29,7 @@ main-image: /NEMS_TitlePicture.jpg
       <span class="skill">Electronic Instrumentation</span>
       <span class="skill">MATLAB</span>
       <span class="skill">OriginLab</span>
+      <span class="skill">Scanning Electron Microscopy</span>
     </div>
   </div>
 </div>
