@@ -30,6 +30,7 @@ main-image: /Microchannel_TitlePicture2.jpg
       <span class="skill">Ultrasonic Welding</span>
       <span class="skill">CNC Milling</span>
       <span class="skill">Microfluidics</span>
+      <span class="skill">Flow Controllers</span>
       <span class="skill">Raman Spectroscopy</span>
     </div>
   </div>
