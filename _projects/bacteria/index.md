@@ -33,6 +33,9 @@ main-image: /Bacteria_TitlePicture.jpg
       <span class="skill">Microfluidics</span>
       <span class="skill">Cell Culture</span>
       <span class="skill">Electronic Instrumentation</span>
+      <span class="skill">Analytical Modeling</span>
+      <span class="skill">LabVIEW</span>
+      <span class="skill">OriginLab</span>
     </div>
   </div>
 </div>
