@@ -5,7 +5,7 @@ location: Research Project, Boston University, 2024-present
 description: Explored a range of micro- and nano-scale mechanical resonators, focusing on material characterization, thermal noise, fluid-structure interaction, electromechanical transducer integration, and performance comparisons between solid-state and polymeric systems. 
 order: 2
 skills: []
-
+publication: "https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.5c04440"
 
 main-image: /2D_Resonators_TitlePicture.jpg
 ---
