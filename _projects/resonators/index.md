@@ -27,7 +27,8 @@ main-image: /3D-MEMS_TitlePicture.jpg
     <h2>Skills Applied</h2>
     <div class="skills-list">
       <span class="skill">SolidWorks</span>
-      <span class="skill">3D-Printing</span>
+      <span class="skill">Stereolithography</span>
+      <span class="skill">Direct Laser Writing</span>
       <span class="skill">Thin-Film Deposition</span>
       <span class="skill">Ultra-High Vacuum Systems</span>
       <span class="skill">Optical Interferometry</span>
