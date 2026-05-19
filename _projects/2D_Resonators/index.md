@@ -12,10 +12,7 @@ main-image: /2D_Resonators_TitlePicture.jpg
 
 ## Design and Experimental Highlights
 
-<div style="margin: 20px 0; padding: 14px 18px; background-color: #161b22; border-left: 4px solid #58a6ff; border-radius: 6px;">
-  <span style="color: #e4e4e7; font-weight: 500; font-size: 1.05em; margin-right: 5px;">Read the Publication:</span> 
-  <a href="https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.5c04440" target="_blank" style="color: #2f81f7; text-decoration: underline; font-weight: 600; font-size: 1.05em; transition: color 0.2s;">Nano Letters Paper</a>
-</div>
+<p style="margin: 20px 0; font-size: 1.05em;">Read the publication in <a href="https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.5c04440" target="_blank" style="text-decoration: underline; font-weight: 500;">Nano Letters here</a>.</p>
 
 {% include image-gallery.html 
    images="
