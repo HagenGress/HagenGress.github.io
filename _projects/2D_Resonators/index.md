@@ -10,9 +10,9 @@ publication: "https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.5c04440"
 main-image: /2D_Resonators_TitlePicture.jpg
 ---
 
-## Design and Experimental Highlights
+<p style="margin: -10px 0 30px 0; font-size: 1.05em;">Read the publication in <strong><em>Nano Letters</em></strong> <a href="https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.5c04440" target="_blank" style="text-decoration: underline; font-weight: 500;">here</a>.</p>
 
-<p style="margin: 20px 0; font-size: 1.05em;">Read the publication in ***Nano Letters*** <a href="https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.5c04440" target="_blank" style="text-decoration: underline; font-weight: 500;">here</a>.</p>
+## Design and Experimental Highlights
 
 {% include image-gallery.html 
    images="
