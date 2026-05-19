@@ -26,7 +26,7 @@ main-image: /NEMS_TitlePicture.jpg
     <div class="skills-list">
       <span class="skill">Ultra-High Vacuum Systems</span>
       <span class="skill">Optical Interferometry</span>
-      <span class="skill">Electrical Measurements</span>
+      <span class="skill">Electronic Instrumentation</span>
       <span class="skill">MATLAB</span>
     </div>
   </div>
