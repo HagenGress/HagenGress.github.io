@@ -29,8 +29,9 @@ main-image: /3D-MEMS_TitlePicture.jpg
       <span class="skill">SolidWorks</span>
       <span class="skill">3D-Printing</span>
       <span class="skill">Thin-Film Deposition</span>
+      <span class="skill">Ultra-High Vacuum Systems</span>
       <span class="skill">Optical Interferometry</span>
-      <span class="skill">Electrical Measurements</span>
+      <span class="skill">Electronic Instrumentation</span>
       <span class="skill">COMSOL Multiphysics</span>
     </div>
   </div>
