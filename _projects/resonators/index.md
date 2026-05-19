@@ -17,8 +17,8 @@ main-image: /3D-MEMS_TitlePicture.jpg
    images="
      3D-MEMS_1.jpg::Designed and fabricated 3D-printed micromechanical resonators with integrated electromechanical transducers.| 
      3D-MEMS_2.jpg::Characterized the performance of electrothermal actuation and piezoresistive detection.| 
-     3D-MEMS_3.jpg::Characterized the thermal properties of the devices by matching COMSOL simulations to a measured resistance increase in the transducers caused by Joule heating.| 
-     3D-MEMS_4.jpg::Built a phase-locked loop to quantify the dynamic effects of the surrounding fluid and evaluate the overall device performance for gas-sensing applications. Quantified frequency-tuning capabilities by inducing controlled temperature changes via Joule heating.| "
+     3D-MEMS_3.jpg::Characterized device thermal properties by matching COMSOL simulations with experimental transducer resistance increases induced by controlled Joule heating.| 
+     3D-MEMS_4.jpg::Developed a phase-locked loop to quantify fluid-structure dynamics for gas-sensing applications and evaluate frequency-tuning capabilities via Joule heating.| "
    width="550"
 %}
 
