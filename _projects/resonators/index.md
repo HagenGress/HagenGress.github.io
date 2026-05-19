@@ -32,7 +32,9 @@ main-image: /3D-MEMS_TitlePicture.jpg
       <span class="skill">Ultra-High Vacuum Systems</span>
       <span class="skill">Optical Interferometry</span>
       <span class="skill">Electronic Instrumentation</span>
+      <span class="skill">Analytical Modeling</span>
       <span class="skill">COMSOL Multiphysics</span>
+      <span class="skill">MATLAB</span>
     </div>
   </div>
 </div>
