@@ -60,14 +60,13 @@ skills:
     tools:
       - Wetbench
       - Plasma Asher
-      - Spin Coater
-      - Mask Writer
-      - Mask Aligner
+      - Photolithography
+      - Stereolithography
+      - Direct Laser Writing
       - Dicing Saw
       - Thin Film Deposition Systems
       - Ball Bonder
       - PDMS Casting
-      - Micro-/Nanoscale 3D-Printer
   - category: Laboratory Equipment
     tools:
       - Ultra-High Vacuum Systems
