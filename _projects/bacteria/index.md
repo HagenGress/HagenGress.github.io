@@ -10,6 +10,8 @@ skills: []
 main-image: /Bacteria_TitlePicture.jpg
 ---
 
+<p style="margin: -10px 0 30px 0; font-size: 1.05em;">Read the publication in <strong><em>Physical Review E</em></strong> <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.064413" target="_blank" style="text-decoration: underline; font-weight: 500;">here</a>.</p>
+
 ## Design and Experimental Highlights
 
 
