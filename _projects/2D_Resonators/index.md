@@ -24,12 +24,11 @@ main-image: /2D_Resonators_TitlePicture.jpg
   <div class="skills-card">
     <h2>Skills Applied</h2>
     <div class="skills-list">
-      <span class="skill">SolidWorks</span>
-      <span class="skill">3D-Printing</span>
-      <span class="skill">Thin-Film Deposition</span>
       <span class="skill">Optical Interferometry</span>
-      <span class="skill">Electrical Measurements</span>
+      <span class="skill">Electronic Instrumentation</span>
+      <span class="skill">Analytical Modeling</span>
       <span class="skill">COMSOL Multiphysics</span>
+      <span class="skill">Scanning Electron Microscopy</span>
     </div>
   </div>
 </div>
