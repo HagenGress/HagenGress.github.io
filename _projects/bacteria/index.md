@@ -26,12 +26,13 @@ main-image: /Bacteria_TitlePicture.jpg
   <div class="skills-card">
     <h2>Skills Used</h2>
     <div class="skills-list">
+      <span class="skill">Photolithography</span>
       <span class="skill">PDMS Casting</span>
       <span class="skill">Thin-Film Deposition</span>
       <span class="skill">Plasma Bonding</span>
       <span class="skill">Microfluidics</span>
       <span class="skill">Cell Culture</span>
-      <span class="skill">Electrical Measurements</span>
+      <span class="skill">Electronic Instrumentation</span>
     </div>
   </div>
 </div>
