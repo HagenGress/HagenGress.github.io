@@ -4,6 +4,7 @@ title: 3D-Printed MEMS Resonators
 location: Research Project, Boston University, 2023-present
 description: Designed, fabricated, and characterized 3D-printed polymeric MEMS resonators with integrated electromechanical transducers for electrothermal actuation and piezoresistive detection for environmental sensing applications. 
 order: 1
+published: false
 skills: []
 
 
